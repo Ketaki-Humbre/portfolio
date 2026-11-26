@@ -1,0 +1,16 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #3B5BDB; }
+    .ring { stroke: #6366F1; stroke-opacity: 0.35; }
+    .fg { fill: #FFFFFF; }
+    .dot { fill: #2DD4BF; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #4F46E5; }
+      .dot { fill: #2DD4BF; }
+    }
+  </style>
+  <rect class="bg" width="180" height="180" rx="40" />
+  <rect class="ring" x="6" y="6" width="168" height="168" rx="34" stroke-width="2" fill="none" />
+  <text x="86" y="114" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="74" font-weight="700" letter-spacing="-2" class="fg">KH</text>
+  <circle class="dot" cx="144" cy="42" r="10" />
+</svg>
